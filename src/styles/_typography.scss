@@ -1,0 +1,36 @@
+html {
+  font-family: $sharpSans;
+}
+
+.main-heading {
+  color: $black;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.section-heading {
+  color: $green;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: $smallScreenBreakPoint) {
+  .main-heading {
+    font-size: 36px;
+    line-height: 1.3em;
+  }
+
+  .section-heading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: $mobileScreenBreakPoint) {
+  .main-heading {
+    font-size: 24px;
+  }
+}
